@@ -1,0 +1,45 @@
+/* Any custom CSS you would like to specify for your site can go here. */
+
+.crop_listing_thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+
+.crop_mybids_thumbnail {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.crop_recommendation_thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+.listing-images {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+/* Remove input arrows for number input field */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Green text for prices in mylistings */
+.mylistings_price_green {
+  color: green;
+}
+
+/* Red text for prices in mylistings */
+.mylistings_price_red {
+  color: red;
+}

@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS bid;
+DROP TABLE IF EXISTS watching;
+DROP TABLE IF EXISTS notification;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS product_status;
+DROP TABLE IF EXISTS product_category;
+DROP TABLE IF EXISTS product_condition;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS user_role;
